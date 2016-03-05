@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid HorizontalAlignment="Left" Margin="10,0,0,0" Width="500" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid HorizontalAlignment="Left" Margin="10,20,0,0" Width="500" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -21,7 +21,7 @@
             <ColumnDefinition Width="2*" />
         </Grid.ColumnDefinitions>
 
-        <TextBlock Text="Title 1" FontSize="24" Grid.Row="0" Grid.Column="0" Margin="0,20,0,10" />
+        <TextBlock Text="Title 1" FontSize="24" Grid.Row="0" Grid.Column="0" Margin="0,0,0,10" />
         <TextBlock Text="Title 2" FontSize="24" Grid.Row="2" Grid.Column="0" Margin="0,0,0,10" />
         <TextBlock Text="Title 3" FontSize="24" Grid.Row="4" Grid.Column="0" Margin="0,0,0,10" />
 
